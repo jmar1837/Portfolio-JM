@@ -1,0 +1,81 @@
+body {
+    font-family: cursive;
+    background-color: white;
+    
+}
+
+p {
+    text-align: center;
+}
+
+aside {
+    border-right: 2px solid black;
+    display: inline-block;
+    width: 15%;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: flex-end;
+    justify-content: space-between;
+    width: 200px;
+    align-items: flex-end;
+    float: right;
+    
+}
+.inline{
+    display: inline;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    
+}
+
+.text {
+    text-align: center;
+}
+.image-container{
+    height: 425px;
+}
+.main-image{
+    background:url("../StunningBeach-CanvaBanner.png");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    position:absolute;
+}
+.subtitle{
+    position:absolute;
+    bottom: 0px;
+    left: 46%;
+    
+}
+/*
+#img {
+    height: 500px;
+    width: 950px;
+    border: 20px black;
+}
+*/
+
+
+/*chad helped me below*/
+
+section,footer {
+    display: inline-block;
+    flex-direction: row;
+    height: 300px;
+    margin-left: 20px;
+    background: peachpuff;
+    width: 80%;
+  }
+footer {
+    height:auto;
+}
+  /* .title-section {
+    width: 30%;
+    border-right: 5px solid black;
+  }
