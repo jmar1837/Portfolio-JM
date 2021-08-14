@@ -1,5 +1,5 @@
 body {
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     background-color: white;
    
     
@@ -35,7 +35,8 @@ nav {
 }
 
 li {
-    display: inline-block;
+    display: inline-flex;
+    width: 80px;
     list-style: none;
     
 }
@@ -78,9 +79,6 @@ footer {
 
 
 
-@media screen and (min-width: 780px) {
-    .full-width-img {
-    margin: auto;
-    width: 90%;
-    }
-}
+[class*="col-"] {
+    width: 100%;
+  }
